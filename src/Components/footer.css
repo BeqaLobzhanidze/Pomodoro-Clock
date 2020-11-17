@@ -1,0 +1,16 @@
+.footer {
+  font-size: 10px;
+  text-align: center;
+  
+}
+.footer h2 ,
+.footer h3{
+  position: relative;
+  bottom: 10px;
+}
+.footer h2{
+  color:red;
+}
+.footer h3 {
+  color:green;
+}

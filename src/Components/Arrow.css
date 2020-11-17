@@ -1,0 +1,41 @@
+.arrow {
+  width:400px;
+  display:flex;
+  background-color: transparent;
+  margin: 0 auto;
+}
+.Session {
+  margin-left:auto;
+}
+#one ,
+#two{
+  width:50%;
+  margin: 0 auto;
+  display: flex;
+  height:30px;
+  justify-content: space-around;
+}
+span {
+  font-size: 20px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+@media all and (max-width: 420px) {
+  .arrow {
+    width:350px;
+  }
+}
+@media all and (max-width: 360px) {
+  .arrow {
+    width:300px;
+  }
+  .arrow h1 {
+    font-size: 20px;
+  }
+}
+section h1 {
+  position: relative;
+  top:20px;
+}

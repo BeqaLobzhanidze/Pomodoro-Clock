@@ -1,0 +1,21 @@
+.container {
+  background-color: transparent;
+  max-width:250px;
+  margin: 0 auto;
+  text-align: center;
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  border:10px solid #3B3B98;
+  border-radius:50px;
+}
+#block{
+  text-align: center;
+  max-width: 100%;
+}
+#block button {
+  height:40px;
+}

@@ -1,0 +1,22 @@
+.main {
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #182C61;
+}
+.App {
+  width:500px;
+  height:500px;
+  color:white;
+}
+button {
+  color:white;
+  cursor: pointer;
+  outline: none;
+}
+button:active {
+  outline: none;
+}
+
